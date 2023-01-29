@@ -4,10 +4,10 @@ public class Piece {
 	//ARGUMENTOS
 	protected Position position;
 	
-	//ASSOCIAÇÃO
+	//ASSOCIAÇÕES
 	private Board board;
 
-	//CONSTRUTOR COM ARGUMENTO
+	//CONSTRUTORES
 	public Piece(Board board) {
 		this.board = board;
 		position = null;
